@@ -17,6 +17,11 @@ endif()
 option(SUPPORT_SUPERPOINT "support Superpoint network instead of ORBextractor" ON)
 set(SUPERPOINTFILE "")
 if (SUPPORT_SUPERPOINT)
+    link_directories(
+            ${CMAKE_SYSROOT}/usr/lib/hbbpu/
+            ${CMAKE_SYSROOT}/usr/lib/hbmedia/
+            ${CMAKE_SYSROOT}/usr/lib/
+    )
     add_definitions(-DSUPPORT_SUPERPOINT)
     set(SUPERPOINTFILE src/SuperPointExtractor.cc)
     set(CMAKE_PREFIX_PATH "../../../../../install")
@@ -35,9 +40,6 @@ if (SUPPORT_SUPERPOINT)
     include_directories(
             ${CMAKE_SYSROOT}/usr/include/
             ${dnn_node_INCLUDE_DIRS}
-    )
-    link_directories(
-            ${CMAKE_SYSROOT}/usr/lib/hbbpu/
     )
 endif()
 

@@ -87,6 +87,7 @@ ${OpenCV_INCLUDE_DIRS}
 
 link_directories(
     ${CMAKE_SYSROOT}/usr/lib/hbbpu/
+    ${CMAKE_SYSROOT}/usr/lib/hbmedia/
 )
 
 set(LIBS
