@@ -12,14 +12,10 @@ SLAM一般指即时定位与地图构建，即时定位与地图构建（Simulta
 
 本章节以ORB-SLAM3作为建图算法，使用EuRoC开源数据集以及RealSense D435i相机作为测试数据来源。
 
-代码仓库：
-
-<https://c-gitlab.horizon.ai/HHP/box/hobot_slam/orb_slam3>
-
 
 ### 准备工作
 
-1. 旭日X3派已烧录好地平线提供的Ubuntu20.0.4或Linux系统镜像。
+1. 旭日X3派已烧录好Ubuntu20.0.4或Linux系统镜像。
 
 2. 旭日X3派已成功安装TogetherROS。
 

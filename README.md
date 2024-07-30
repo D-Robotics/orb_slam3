@@ -12,14 +12,9 @@ SLAM generally refers to Simultaneous Localization and Mapping. It is well known
 
 In this chapter, ORB-SLAM3 is used as the mapping algorithm, with the EuRoC open dataset and RealSense D435i camera as the source of test data.
 
-Code repository:
-
-<https://c-gitlab.horizon.ai/HHP/box/hobot_slam/orb_slam3>
-
-
 ### Preparation
 
-1. The X3 board has been flashed with the Ubuntu 20.0.4 or Linux system image provided by Horizon.
+1. The X3 board has been flashed with the Ubuntu 20.0.4 or Linux.
 
 2. TogetherROS has been successfully installed on the X3 board.
 

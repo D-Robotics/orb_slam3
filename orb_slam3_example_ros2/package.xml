@@ -4,7 +4,7 @@
   <name>orb_slam3_example_ros2</name>
   <version>2.1.0</version>
   <description>TogetheROS orb slam3 example</description>
-  <maintainer email="zhennan.feng@horizon.ai">fzn</maintainer>
+  <maintainer email="zhennan.feng@d-robotics.cc">fzn</maintainer>
   <license>GPLv3</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
